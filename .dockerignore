@@ -1,0 +1,56 @@
+# 🔒 Git & Version Control
+.git
+.gitignore
+.github
+
+# 🐍 Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# 🧪 Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 🧰 Virtual Environments
+venv/
+.env/
+.venv/
+
+# 🔐 Environment & Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# 📝 Logs
+*.log
+logs/
+
+# 🧾 Documentation (optional)
+docs/
+*.md
+
+# 🧱 Build & Dist
+build/
+dist/
+*.egg-info/
+
+# 🐳 Docker files (avoid recursive issues)
+docker-compose.yml
+docker-compose.prod.yml
+
+# 🖥️ IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+
+# 📦 Node (if any frontend)
+node_modules/
+
+# 📂 OS Files
+.DS_Store
+Thumbs.db
